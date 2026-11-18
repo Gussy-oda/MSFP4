@@ -495,8 +495,6 @@ Los circuitos del control y del caso, junto con el controlador analógico basado
 
 ![Montaje experimental en protoboard](./Circuito_lab.jpeg)
 
-*(Pendiente: indicar qué sección del montaje corresponde al circuito RLC, al controlador y a los puntos de medición $V_a$ y $V_b$.)*
-
 ### Captura del osciloscopio
 
 ![Captura del osciloscopio](./Respuesta_lab.bmp)
