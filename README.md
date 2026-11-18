@@ -48,7 +48,7 @@ El caso de estudio representa de forma simplificada la dinámica de una señal h
 <a id="resumen"></a>
 ## Resumen
 
-La práctica desarrolla un procedimiento completo de **modelado, análisis, simulación, control y verificación experimental** de un compartimento endócrino simplificado. Un estímulo fisiológico $V_e(t)$ se transmite a través de una resistencia $R_1$ (pérdidas durante el transporte hormonal) hacia un capacitor $C$ (almacenamiento temporal) en paralelo con una rama $L$–$R_2$ (inercia y utilización del tejido diana). La salida $V_s(t)$ representa el nivel hormonal efectivo y normalizado disponible en el compartimento de interés.
+La práctica desarrolla un procedimiento completo de **modelado, análisis, simulación, control y verificación experimental** de un compartimento endócrino simplificado. Un estímulo fisiológico $V_e(t)$ se transmite a través de una resistencia $R_1$ (pérdidas durante el transporte hormonal) hacia un capacitor $C$ (almacenamiento temporal) en paralelo con una rama $L$ – $R_2$ (inercia y utilización del tejido diana). La salida $V_s(t)$ representa el nivel hormonal efectivo y normalizado disponible en el compartimento de interés.
 
 Se estudian dos configuraciones: el **control** ($C=1\,\mu\mathrm{F}$, $R_2=100\,\mathrm{k}\Omega$) y el **caso** ($C=1000\,\mu\mathrm{F}$, $R_2=1\,\mathrm{k}\Omega$). A partir de las leyes de Kirchhoff y la transformada de Laplace se obtiene una función de transferencia de segundo orden para cada condición. Ambos sistemas resultan estables y sobreamortiguados, pero el caso responde mucho más lento y se estabiliza en $0.5\,\mathrm{V}$, frente a $0.99\,\mathrm{V}$ del control.
 
