@@ -500,7 +500,7 @@ Los circuitos del control y del caso, junto con el controlador analógico basado
 
 ### Captura del osciloscopio
 
-![Captura del osciloscopio](./Respuesta_lab.jpg)
+![Captura del osciloscopio](./Respuesta_lab.bmp)
 
 Parámetros de la captura: base de tiempo de $500\,\mathrm{ms/div}$, escala vertical de $500\,\mathrm{mV/div}$ en los cuatro canales, muestreo de $1\,\mathrm{kS/s}$ y profundidad de memoria de $10\mathrm{K}$. En la captura se observa una excitación en forma de pulso descendente en los canales de entrada, y una respuesta (canal 3, naranja) que cae y luego recupera su nivel de reposo con una evolución exponencial lenta, coherente con la dinámica de primer orden dominante del sistema.
 
