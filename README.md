@@ -618,7 +618,7 @@ flowchart TD
 ```text
 .
 ├── README.md                              # Reporte y guía de reproducción
-├── CITATION.cff                           # Datos de citación (pendiente)
+├── CITATION.cff                           # Datos de citación
 ├── Ortega23212223.mlx                     # Cuaderno MATLAB
 ├── Ortega23212223.pdf                     # Exportación del cuaderno
 ├── Ortega23212223.py                      # Implementación Python
