@@ -601,10 +601,10 @@ flowchart TD
 **Etapa 4. Experimentación y documentación**
 - [x] Construir los circuitos en protoboard.
 - [x] Capturar señales con el osciloscopio (captura incluida).
-- [ ] Incorporar capturas de lazo abierto (control y caso) y de lazo cerrado.
-- [ ] Completar la comparación simulación–experimento.
-- [ ] Incorporar el diagrama biológico (BioRender).
-- [ ] Incorporar `CITATION.cff` con los datos definitivos del repositorio.
+- [x] Incorporar capturas de lazo abierto (control y caso) y de lazo cerrado.
+- [x] Completar la comparación simulación–experimento.
+- [x] Incorporar el diagrama biológico (BioRender).
+- [x] Incorporar `CITATION.cff` con los datos definitivos del repositorio.
 
 [Volver al contenido](#contenido)
 
