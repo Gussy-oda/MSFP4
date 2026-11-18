@@ -122,7 +122,7 @@ Las hormonas se liberan desde glándulas especializadas, se transportan por la c
 ### Topología del circuito
 
 - Rama principal: fuente $V_e(t)$ en serie con $R_1$.
-- Nodo posterior a $R_1$: capacitor $C$ a la referencia, en paralelo con la rama serie $L$–$R_2$.
+- Nodo posterior a $R_1$: capacitor $C$ a la referencia, en paralelo con la rama serie $L$ – $R_2$.
 - $V_s(t)$ se mide en el nodo de unión de $R_1$, $C$ y $L$; $F_e=F_c+F_s$, donde $F_c$ es la corriente del capacitor.
 - Dos elementos independientes de almacenamiento de energía ($C$ y $L$) implican un sistema de **segundo orden**.
 
