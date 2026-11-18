@@ -539,7 +539,7 @@ Parámetros de la captura: base de tiempo de $500\,\mathrm{ms/div}$, escala vert
 <a id="conclusiones"></a>
 ## Conclusiones
 
-1. El circuito $R_1$–$C$–($L$+$R_2$) reproduce cualitativamente el almacenamiento, la disipación y la inercia asociados con la respuesta hormonal y resulta en un sistema dinámico de segundo orden.
+1. El circuito $R_1$ – $C$ –($L$ + $R_2$) reproduce cualitativamente el almacenamiento, la disipación y la inercia asociados con la respuesta hormonal y resulta en un sistema dinámico de segundo orden.
 2. El control y el caso son estables y sobreamortiguados, con valores finales de $0.99\,\mathrm{V}$ y $0.5\,\mathrm{V}$, respectivamente; la alteración de $C$ y $R_2$ vuelve al caso unas 500 veces más lento y reduce su respuesta final.
 3. Las representaciones por ecuaciones, función de transferencia y circuito equivalente, junto con MATLAB y Python, permiten verificar de forma cruzada la dinámica del sistema.
 4. Un controlador PID con $k_P=1319.6$, $k_I=322481.1343$ y $k_D=0.17971$ lleva la respuesta del caso hacia la referencia sana con error final nulo y respuesta rápida.
