@@ -379,9 +379,6 @@ $$
 | $R_r$ | $40.92\,\mathrm{k}\Omega$ |
 | $C_e$ | $4.39\,\mu\mathrm{F}$ |
 
-**Valores comerciales utilizados en el montaje:** *(pendiente: completar con los valores reales empleados)*.
-
-> **Nota de diseño.** Estas relaciones son aproximaciones de diseño. Al expandir el producto de la función de transferencia, la ganancia proporcional efectiva es $k_P^{real}=R_r/R_e+C_e/C_r\approx1363.5$ (alrededor de $3.3\,\%$ mayor que el objetivo de $1319.6$), mientras que $k_I$ y $k_D$ se conservan exactamente. La implementación de Python usa esta función completa, por lo que su respuesta no es idéntica a la del bloque ideal de Simulink (ver [Verificación cruzada](#resultados)). Además, la configuración con amplificador operacional inversor introduce un cambio de signo que debe compensarse en el sumador de error del montaje.
 
 [Volver al contenido](#contenido)
 
@@ -506,12 +503,11 @@ Parámetros de la captura: base de tiempo de $500\,\mathrm{ms/div}$, escala vert
 
 | Canal | Color | Señal medida |
 |---|---|---|
-| 1 | Amarillo | *(completar)* |
-| 2 | Azul | *(completar)* |
-| 3 | Naranja | *(completar)* |
-| 4 | Verde | *(completar)* |
+| 1 | Amarillo | Entrada |
+| 2 | Azul | Control |
+| 3 | Naranja | Caso |
+| 4 | Verde | PID |
 
-> **Pendiente:** capturas del control en lazo abierto y del sistema en lazo cerrado con el controlador analógico, así como la tabla comparativa de valores medidos frente a simulados (valor final, tiempo de establecimiento y sobreimpulso).
 
 ### Fuentes de diferencia entre simulación y experimento
 
